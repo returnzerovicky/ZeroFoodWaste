@@ -1,0 +1,206 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #eaf7e6;
+  padding: 1rem 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #ffffff;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.hero-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #388e3c;
+}
+
+.cta-buttons .btn {
+  padding: 0.75rem 1.5rem;
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: #66bb6a;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background-color: #a5d6a7;
+  color: #2e7d32;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e8f5e9;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Form Styles */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+.form-section h2,p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+form label {
+  display: block;
+  margin: 1rem 0 0.25rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f9f9f9;
+}
+
+form button {
+  margin-top: 1.5rem;
+  background-color: #66bb6a;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4caf50;
+}
+
+/* Food Grid */
+.food-grid {
+  padding: 2rem 1rem;
+  background-color: #f1f8e9;
+  text-align: center;
+}
+
+.food-grid h2 {
+  margin-bottom: 1rem;
+  color: #388e3c;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 1rem;
+}
+
+.food-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.food-card:hover {
+  transform: scale(1.02);
+  border-color: #a5d6a7;
+}
+
+.food-card h3 {
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.food-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* About Page */
+.about-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.05);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #388e3c;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-section ul li {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
